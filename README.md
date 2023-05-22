@@ -35,3 +35,6 @@ In this example, the App component is a functional component that returns JSX. I
 Remember, in a typical React project, you'll have multiple components spread across different files, and they can be imported and used within the App.js file or nested within other components. This modular approach allows for a structured and reusable codebase.
 
 
+To learn how to deploy react app on github pages watch this:-
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/7wzuievFjrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;   clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+  </iframe>
