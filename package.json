@@ -1,11 +1,14 @@
 {
+  "homepage": "https://github.com/Deepak-gupta21/React-random-quote-generator",
   "name": "react-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run  --headless --reporter mochawesome",
     "start": "webpack-dev-server --mode development --watch --open --hot --port=3000",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "cypress run  --headless --reporter mochawesome",
     "build": "webpack --mode production"
   },
   "keywords": [],
